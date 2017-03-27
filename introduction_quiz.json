@@ -1,0 +1,56 @@
+{
+	"quiz": [
+		{
+			"question": "Describe with your own words. What is a Data Platform?",
+			"answer": "It is a group of tools that allow us to acquire, process and store data"
+		},
+		{
+			"question": "In the 3 V's of big data. How would you describe Variety?",
+			"answer": "To have sources of different types like images, texts or sound among others"
+		},
+		{
+			"question": "What are the elements of tidy data?",
+			"answer": "The raw data, the processed dataset, a codebook and the steps taken in the process"
+		},
+		{
+			"question": "List the most common format files you know for sharing data",
+			"answer": "JSON, csv and xml"
+		},
+		{
+			"question": "What is web scrapping?",
+			"answer": "Getting data from the web"
+		},
+		{
+			"question": "What is data integration?",
+			"answer": "To unify the different data obtained from different sources so we get a general overview of all the data"
+		},
+		{
+			"question": "What is data processing?",
+			"answer": "To transform the data into information"
+		},
+		{
+			"question": "Mention some common data processing tasks",
+			"answer": "Merging, subsetting, transforming, removing, trasposing, arithmetic operations, resizing, etc."
+		},
+		{
+			"question": "Mention some common data processing tasks",
+			"answer": "Merging, subsetting, transforming, removing, trasposing, arithmetic operations, resizing, etc."
+		},
+		{
+			"question": "What is Data as a Service?",
+			"answer": "When data is provided on demand"
+		},
+		{
+			"question": "What is DataBase as a Service?",
+			"answer": "A predefined DataBase in the cloud"
+		},
+		{
+			"question": "What is data anlysis?",
+			"answer": "Is the process of acquiring and processing the data in order to get relevant information about the area that we are getting the data from"
+		},
+		{
+			"question": "Mention some typical use cases for data analysis",
+			"answer": "To find patterns, to suggest modeling strategies, to get an insight of the behaviour of the system"
+		}
+	]	
+}
