@@ -15,10 +15,12 @@ with open('introduction_quiz.json') as df:
 #Send the json to the specified url
 r = requests.post(url, data =json.dumps(ans))
 
-#Get the values just entered in order to check if it was done correctly
-a = requests.get(url)
-answers = a.text
-
+#Get the values just entered in order to check if it was done correctly but you have to put the full URL
+#a = requests.get(url)
+#answers = a.text
 #Print the answers in the console
-print(answers)
+#print(answers)
+
+#Print the result of the POST
+print(r.text)
 
