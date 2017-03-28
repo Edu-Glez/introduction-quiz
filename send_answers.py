@@ -3,7 +3,7 @@ import requests
 import json
 
 #Type the host you are going to print the answers
-url='http://localhost:9200/edu/quiz/4'
+url=''
 
 #Get the url
 r = requests.get(url)
