@@ -18,7 +18,6 @@ r = requests.post(url, data =json.dumps(ans))
 #The next two lines are to print the json in your console in pretty form, however
 a = requests.get(url)
 answers = a.text
-
-#Print the answers in the console
-print(answers)
+parsed = json.loads(answers,indent=1)
+print(parsed)
 
